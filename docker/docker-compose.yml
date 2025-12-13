@@ -1,0 +1,9 @@
+services:
+  trend-app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "3000:80"
+    container_name: trend-app
+
